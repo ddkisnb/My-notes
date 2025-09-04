@@ -1,0 +1,19 @@
+reinterpret_cast
+const_cast
+static_cast
+dynameic_cast
+
+1.reinterpret_cast<int *>进行底层位模式转换，还有整数与指针之间，指针之间互转等
+但是非常危险，没有类型安全保障，类似于C风格强转
+
+2.const-cast<char*>text
+专门用来修改const或volatile属性
+不能修改类型本身
+
+double d=3.14;
+3.static-cast<int>(d) double--->int d
+编译期类型转换，做一些安全类型的转换
+还有类之间的向上（转父类）的转换
+4.dynameic_cast  <type-id>expression
+运行期类型安全检查，需要多态，可以进行父类和子类之间的转换
+失败会返回nullptr，
