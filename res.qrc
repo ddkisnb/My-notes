@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bq/000.png</file>
+        <file>bq/001.png</file>
+        <file>bq/002.png</file>
+        <file>bq/003.png</file>
+        <file>bq/004.png</file>
+        <file>bq/005.png</file>
+        <file>bq/006.png</file>
+        <file>bq/007.png</file>
+        <file>bq/008.png</file>
+        <file>bq/009.png</file>
+        <file>bq/10.png</file>
+        <file>images/hat.png</file>
+        <file>images/message.png</file>
+        <file>images/register.png</file>
+        <file>images/right.png</file>
+        <file>images/sett.png</file>
+        <file>images/style.png</file>
+        <file>tx/11.png</file>
+        <file>tx/13.png</file>
+        <file>tx/14.png</file>
+        <file>tx/36.jpg</file>
+    </qresource>
+</RCC>
